@@ -1,0 +1,25 @@
+{
+	"name":  "dimensional-store",
+	"description": "Dimensional Store",
+	"version": "0.0.1",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/peterprib/dimensionalStore.git"
+	},
+	"keywords": [
+		"javascript",
+		"parser"
+	],
+	"author": "Peter Prib",
+	"bugs": "https://github.com/peterprib/dimensionalStore/issues",
+	"license": "GPL-3.0",
+	"bin": {
+		"test": "./test/index.js"
+	},
+	"dependencies": {
+		"express": "*",
+		"requirejs": "*",
+		"amdefine": "*"
+	}
+}
